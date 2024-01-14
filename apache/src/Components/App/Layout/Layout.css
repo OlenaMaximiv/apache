@@ -1,0 +1,38 @@
+.feature {
+    height: 100vh;
+    background-color: blue;
+}
+
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* align-content: space-between; */
+    justify-content: space-around;
+}
+header {
+    background-color: antiquewhite;
+    height: 10vh;
+    padding-top: 1rem;
+    align-items: center;
+}
+
+.menu-list {
+    /* margin: 1rem; */
+    display: flex;
+    flex-direction: row;
+    /* align-self: center; */
+    list-style: none;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.menu-items {
+    padding: 1rem;
+}
+
+.last-item {
+    margin-right: 2rem;
+}
